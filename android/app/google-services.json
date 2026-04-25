@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "995078905468",
+    "project_id": "your-54cd2",
+    "storage_bucket": "your-54cd2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995078905468:android:7a31ab7e10309632da73f9",
+        "android_client_info": {
+          "package_name": "com.example.allogroupworldcup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995078905468-mnhq88cm6e4vkn68c3g45hcl8kipmuph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.allogroupworldcup",
+            "certificate_hash": "8450e27991a5f6a5af00a1a427eee2891c24d16f"
+          }
+        },
+        {
+          "client_id": "995078905468-fkjeh2qtaehv5g5p9muu35apd3j9q9gr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg7rtjGpo4cxh_uuqsDtExw8mB5NSn8qY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995078905468-dip9jd17qm635viurvh1cmm35sp8i2pg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
