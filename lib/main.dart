@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
           scaffoldBackgroundColor: backgroundColor,
           cardColor: cardColor,
           primaryColor: textColor,
-          textTheme: TextTheme(
+          textTheme: const TextTheme(
             bodyLarge: TextStyle(color: textColor),
             bodyMedium: TextStyle(color: textColor),
             bodySmall: TextStyle(color: textColor),

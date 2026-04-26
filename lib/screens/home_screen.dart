@@ -6,6 +6,8 @@ import 'leaderboard_screen.dart';
 import 'admin_screen.dart';
 
 class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }

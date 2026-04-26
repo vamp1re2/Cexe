@@ -4,6 +4,8 @@ import '../providers/match_provider.dart';
 import '../widgets/match_card.dart';
 
 class MatchesScreen extends StatefulWidget {
+  const MatchesScreen({super.key});
+
   @override
   _MatchesScreenState createState() => _MatchesScreenState();
 }
@@ -18,10 +20,10 @@ class _MatchesScreenState extends State<MatchesScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Matches'),
+        title: const Text('Matches'),
         actions: [
           IconButton(
-            icon: Icon(Icons.calendar_today),
+            icon: const Icon(Icons.calendar_today),
             onPressed: () async {
               DateTime? picked = await showDatePicker(
                 context: context,

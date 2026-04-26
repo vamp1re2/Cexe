@@ -15,7 +15,6 @@ class AuthService {
       },
       verificationFailed: (FirebaseAuthException e) {
         // Handle error
-        print(e.message);
       },
       codeSent: (String verificationId, int? resendToken) {
         codeSent(verificationId);

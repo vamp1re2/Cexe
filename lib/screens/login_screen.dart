@@ -3,6 +3,8 @@ import 'package:provider/provider.dart';
 import '../providers/auth_provider.dart';
 
 class LoginScreen extends StatefulWidget {
+  const LoginScreen({super.key});
+
   @override
   _LoginScreenState createState() => _LoginScreenState();
 }
@@ -19,13 +21,13 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
       appBar: AppBar(title: Text('Login')),
       body: Padding(
-        padding: EdgeInsets.all(16),
+        padding: const EdgeInsets.all(16),
         child: Column(
           children: [
             if (!_isOtpSent) ...[
               TextField(
                 controller: _phoneController,
-                decoration: InputDecoration(labelText: 'Phone Number'),
+                decoration: const InputDecoration(labelText: 'Phone Number'),
                 keyboardType: TextInputType.phone,
               ),
               ElevatedButton(
@@ -42,7 +44,7 @@ class _LoginScreenState extends State<LoginScreen> {
             ] else ...[
               TextField(
                 controller: _otpController,
-                decoration: InputDecoration(labelText: 'OTP'),
+                decoration: const InputDecoration(labelText: 'OTP'),
                 keyboardType: TextInputType.number,
               ),
               ElevatedButton(

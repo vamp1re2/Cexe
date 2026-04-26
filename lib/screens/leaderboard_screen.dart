@@ -3,6 +3,8 @@ import 'package:provider/provider.dart';
 import '../providers/leaderboard_provider.dart';
 
 class LeaderboardScreen extends StatelessWidget {
+  const LeaderboardScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     final leaderboardProvider = Provider.of<LeaderboardProvider>(context);
